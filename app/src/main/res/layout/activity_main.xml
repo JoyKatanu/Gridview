@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    tools:context=".activities.MainActivity">
+
+    <GridView
+        android:id="@+id/idGRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:horizontalSpacing="6dp"
+        android:numColumns="3"
+        android:verticalSpacing="6dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:spinnerMode="dialog"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/spinner_background"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@id/spinner"
+        android:layout_alignParentRight="true"
+        android:text="View Houses"
+        android:textColor="#ffff"
+        android:textAlignment="gravity"
+        tools:ignore="MissingConstraints"
+        />
+
+
+
+</RelativeLayout>

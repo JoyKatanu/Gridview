@@ -1,0 +1,21 @@
+<resources>
+    <string name="gridview">GridView</string>
+    <string name="selected_item">Selected item:</string>
+    <string name="app_name">GridView</string>
+    <string name="DatePicker">DatePicker</string>
+    <string name="rating_bar">RatingkBarInKotlin</string>
+
+
+    <string-array name="Counties">
+        <item>Nairobi</item>
+        <item>Nakuru</item>
+        <item>Kitui</item>
+        <item>Kiambu</item>
+        <item>Embu</item>
+        <item>Machakos</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
